@@ -1,0 +1,18 @@
+[project]
+name = "reflection_pattern_agent"
+version = "0.1.0"
+authors = [
+    { name="Priscila Santos", email="priscila.olimpia@gmail.com" },
+]
+description = "An agentic pattern for self-reflection and output improvement."
+readme = "README.md"  # TO DO add a README file
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["reflection_pattern_agent*"]

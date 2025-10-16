@@ -1,0 +1,8 @@
+pyproject.toml
+reflection_pattern_agent/__init__.py
+reflection_pattern_agent/reflection_agent.py
+reflection_pattern_agent.egg-info/PKG-INFO
+reflection_pattern_agent.egg-info/SOURCES.txt
+reflection_pattern_agent.egg-info/dependency_links.txt
+reflection_pattern_agent.egg-info/top_level.txt
+tests/test_reflection_agent.py
