@@ -38,5 +38,8 @@ jobs:
 
       # Step 5: Run the unit tests with Pytest
       - name: Test with Pytest
+        # Add this 'env' block to inject the secret
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           pytest
