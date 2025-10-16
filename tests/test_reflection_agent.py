@@ -1,4 +1,3 @@
-import pytest
 from reflection_pattern_agent.reflection_agent import ReflectionAgent
 
 # Create a fake response object that looks exactly like the real OpenAI response.
