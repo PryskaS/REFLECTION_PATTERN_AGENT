@@ -4,11 +4,11 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from typing import List
 
-# Load environment variables from a .env file
-load_dotenv()
-
 # Import core logic
 from reflection_pattern_agent.reflection_agent import ReflectionAgent
+
+# Load environment variables from a .env file
+load_dotenv()
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
